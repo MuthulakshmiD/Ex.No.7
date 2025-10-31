@@ -21,19 +21,19 @@ EXPECTED OUTPUT: - (attached the drive link)
 Output (Example Response by LLM):
 Personal Productivity Assistant Features:
 1. Daily Task Manager:
-o Accept tasks via natural language (e.g., "Remind me to call mom at 6 PM").
-o Organize tasks by priority and deadline.
-o Provide daily summaries and pending items.
+• Accept tasks via natural language (e.g., "Remind me to call mom at 6 PM").
+• Organize tasks by priority and deadline.
+• Provide daily summaries and pending items.
 2. Smart Scheduler:
-o Schedule events and set reminders using contextual understanding.
-o Notify user of overlapping appointments or free time slots.
+• Schedule events and set reminders using contextual understanding.
+• Notify user of overlapping appointments or free time slots.
 3. Wellness Tips Generator:
-o Suggest daily wellness advice (hydration, exercise, screen-time breaks).
-o Adapt suggestions based on past user preferences and responses.
+• Suggest daily wellness advice (hydration, exercise, screen-time breaks).
+• Adapt suggestions based on past user preferences and responses.
 
 
 ### Prompt Design Stages
- o Simple Prompt
+ ⚫ Simple Prompt
 
 “Add a task to finish my math assignment at 6 PM.”
 
@@ -41,7 +41,7 @@ Output:
 
 “Task added: Finish math assignment at 6 PM.”
 
-  o Intermediate Prompt
+  ⚫ Intermediate Prompt
 
 “Show all my tasks for the evening and suggest a good time to take a break.”
 
@@ -50,7 +50,7 @@ Output:
 “You have two evening tasks: complete math assignment at 6 PM and study science at 8 PM.
 Take a short 15-minute break at 7 PM.”
 
-  o Advanced Prompt
+  ⚫ Advanced Prompt
 
 “Plan my entire study schedule for tomorrow based on 3 hours of study time and include short breaks.”
 
